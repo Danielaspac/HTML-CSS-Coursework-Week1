@@ -6,3 +6,15 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ h1{
+    color:red;
+ }
+article{
+    border:2px solid black;
+    margin:15px;
+}
+main{
+   
+    display:flex;
+    flex-direction: column;
+}
