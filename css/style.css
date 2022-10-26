@@ -6,15 +6,36 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
  h1{
     color:red;
+ }
+ body{
+    height:100vh;
  }
 article{
     border:2px solid black;
     margin:15px;
 }
-main{
-   
+section{margin: auto;
+    width: 50%;
+   max-width:900px;
     display:flex;
     flex-direction: column;
+}
+article:first-child{
+    background-color: blue!important;
+}
+header{
+    padding:15px;
+    background: #ccc;
+}
+footer{
+        position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding:15px;
+            height: 30px;
+            background: #ccc;
 }
